@@ -4,8 +4,6 @@ const { reward: confettiReward, isAnimating: isConfettiAnimating } = useReward('
 const { reward: balloonsReward, isAnimating: isBalloonsAnimating } = useReward('balloons-elem', 'balloons');
 const { reward: emojiReward, isAnimating: isEmojiAnimating } = useReward('emoji-elem', 'emoji');
 const { reward: fullPageReward, isAnimating: isFullPageAnimating } = useReward('full-page', 'confetti', {startVelocity:10, spread:180, elementCount:100 });
-
-
 </script>
 
 <template>
@@ -31,6 +29,15 @@ const { reward: fullPageReward, isAnimating: isFullPageAnimating } = useReward('
     <button @click="fullPageReward" class="mx">
       Full page
     </button>
+  </div>
+  <div>
+    <a href="https://github.com/HamadaFMahdi/vue-rewards" target="_blank">
+      VueRewards Github Repo
+    </a>
+    <a href="https://github.com/HamadaFMahdi/vue-rewards-demo" target="_blank">
+      Github Repo for this demo
+    </a>
+
   </div>
 </template>
 
