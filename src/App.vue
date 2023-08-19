@@ -13,7 +13,7 @@ const { reward: fullPageReward, isAnimating: isFullPageAnimating } = useReward('
   <div class="mb">
     <img height="200" src="./assets/logo.svg">
   </div>
-  <div>
+  <div class="mb">
     <button @click="confettiReward" id="confetti-elem" class="mx">
       Confetti
     </button>
@@ -34,6 +34,7 @@ const { reward: fullPageReward, isAnimating: isFullPageAnimating } = useReward('
     <a href="https://github.com/HamadaFMahdi/vue-rewards" target="_blank">
       VueRewards Github Repo
     </a>
+    <br>
     <a href="https://github.com/HamadaFMahdi/vue-rewards-demo" target="_blank">
       Github Repo for this demo
     </a>
