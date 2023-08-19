@@ -9,7 +9,7 @@ const { reward: fullPageReward, isAnimating: isFullPageAnimating } = useReward('
 </script>
 
 <template>
-  <div style="border: red 1px solid;" id="full-page">
+  <div id="full-page">
 
   </div>
   <div class="mb">
